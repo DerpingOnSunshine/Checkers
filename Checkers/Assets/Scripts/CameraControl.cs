@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    private const float Y_ANGLE_MIN = 0.0f; //Minimum camera angle (y)
+    private const float Y_ANGLE_MIN = 5.0f; //Minimum camera angle (y)
     private const float Y_ANGLE_MAX = 50.0f; //Maximum camera angle (y)
 
     public Transform lookAt; //Game object to look at
